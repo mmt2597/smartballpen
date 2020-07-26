@@ -1,0 +1,78 @@
+
+<!-- [NINETH ROW CONTENT ] -->
+
+
+<div class="container-fluid nineth-row-content" id="footer" style="padding: 0" ng-controller="paymentCtrl"> 
+
+	<div class="col-md-10 col-md-offset-2 nineth-content"> 
+	
+	<div class="col-md-3 payment-methods " id="third"> 		
+
+		<div class="container-fluid"><h4>Payment Methods</h4></div> 
+				
+		<div class="container-fluid img-wrapper payment-list" style="padding: 0 10px;">  
+			<img ng-src="{{item.imagePath}}" class="img-responsive" ng-repeat="item in paymentItem" /> 	
+		</div> 
+		
+	</div> 
+
+	
+
+	<div class="col-md-3 payment-methods delivery-services" id="third"> 
+		<div class="col-lg-12"> 
+			<h4>Delivery Services</h4> 
+		</div>
+				
+		<div class="col-lg-12" style="padding: 8px 10px;" >
+					<img src="img/thumbs/project-1.jpg" class="img-responsive" /> 
+					<img src="img/thumbs/project-2.jpg" class="img-responsive" /> 
+					<img src="img/thumbs/project-3.jpg" class="img-responsive" /> 
+					<img src="img/thumbs/project-4.png" class="img-responsive" /> 
+					<img src="img/thumbs/project-5.jpg" class="img-responsive" /> 
+					<img src="img/thumbs/project-6.jpg" class="img-responsive" /> 		
+		</div> 
+	</div> 
+
+	<div class="col-md-4 footer-contact-us" id="second"> 
+
+		<div class="container-fluid"><h4>Contact Us</h4></div> 
+	
+		<div class="container-fluid" style="padding-top: 10px;"> 
+			<h5><i class="fa fa-1x fa-building"></i>&nbsp;&nbsp;SmartPen Corp.</h5> 
+			<h5><i class="fa fa-1x fa-location-arrow"></i>&nbsp;&nbsp;1 Liberty St. New York, NY 5006</h5> 
+			<h5><i class="fa fa-1x fa-envelope"></i>&nbsp;&nbsp;<b>Email:</b><a href=""> smart@pen.com</a></h5> 
+			<h5><i class="fa fa-1x fa-phone"></i>&nbsp;&nbsp;&nbsp;<b>Phone:</b> (123) 456-7890</h5> 
+		</div> 
+
+		<div class="container-fluid social-media" style="float: left"> 
+			<ul class="nav nav-pills"> 
+				<li><a href="" data-toggle="tootltip" title="twitter"><i class="fa fa-twitter"></i></a></li> 
+				<li><a href="" data-toggle="tootltip" title="facebook"><i class="fa fa-facebook"></i></a></li> 
+				<li><a href="" data-toggle="tootltip" title="youtube"><i class="fa fa-youtube"></i></a></li> 
+				<li><a href="" data-toggle="tootltip" title="google plus"><i class="fa fa-google-plus"></i></a></li> 
+			</ul> 
+		</div> 
+	</div> 
+</div>
+<!-- END OF NINETH-CONTENT --> 
+
+<div class="clearfix"></div> 
+<!-- THIS IS FOOTER COPYRIGHT AND NAV-MENU --> 
+
+<div class="container-fluid footer-of-copyright"> 
+
+	<div class="col-md-6 text-copyright"> 
+		<p>All Rights Reserved<sup> TM</sup></p> 
+	</div> 
+
+	<div class="col-md-6 nav-footer"> 
+		<nav class="nav-link-footer"> 
+			<ul class="nav nav-pills"> 
+			<li ng-repeat="item in footerItems"><a ng-href="{{ item.href }}">{{ item.title }}</a></li> 
+			</ul> 
+		</nav> 
+	</div> 
+</div>
+<!-- END OF FOOTER COPYRIGHT & NAV-MENU -->
+</div>
+<!-- END OF NINETH-ROW-CONTENT-->

@@ -1,0 +1,41 @@
+<nav class="navbar navbar-inverse navbar-fixed-top"> 
+
+<div class="container-fluid"> 
+<!-- Brand and toggle get grouped for better mobile display --> 
+
+<div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false"> 
+
+<span class="sr-only">Toggle navigation
+</span> 
+
+<span class="icon-bar">
+</span> 
+
+<span class="icon-bar">
+</span> 
+
+<span class="icon-bar">
+</span> </button> <a class="navbar-brand" href="#!/">SMARTPEN</a> 
+</div> 
+<!-- Collect the nav links, forms, and other content for toggling --> 
+
+<div class="collapse navbar-collapse" id="myNavbar"> 
+<ul class="nav navbar-nav"> 
+<li ng-class="active" ng-repeat="item in itemLinks"><a ng-href="#{{item.href}}">{{item.title}}</a></li> 
+</ul> 
+<ul class="nav navbar-nav navbar-right hidden-xs"> 
+
+<form class="navbar-form navbar-left" role="search"> 
+
+<div class="form-group has-success has-feedback" style="margin-top: 7px"> 
+<input type="text" class="form-control" placeholder="Search"> 
+
+<span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true">
+</span> 
+</div> 
+</form> 
+</ul> 
+</div>
+<!-- /.navbar-collapse --> 
+</div>
+<!-- col-md-8 --></nav>

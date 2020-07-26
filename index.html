@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="smartApp">
+<head>
+    <title>Smart Ballpen</title>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="icon" href="img/smartpen-logo-mobile.png">
+    <!-- [PLUGIN CSS] -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/smart-ballpen-styling.css">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/media_query.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar">
+
+    <div class='loader1'>
+      <div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="out" style="display: none;">
+<div class="float-btn animated" >
+    <a ng-href="#home"><button class=""><strong><i class="glyphicon glyphicon-menu-up"></i></strong></button></a>
+</div>
+
+<nav-header></nav-header>
+
+<div ng-view></div>
+
+<footer-section></footer-section>
+</div>
+    <!-- [PLUG IN JAVASCRIPT] -->
+
+<modal-content></modal-content>
+
+
+ 
+
+
+<!-- LIBRARIES -->
+
+<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+<script type="text/javascript" src="node_modules/angular-route/angular-route.js"></script>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+<script type="text/javascript">
+    $(window).ready(function() { 
+      $('.loader1').fadeOut(function() {
+          $('.out').css('display','block');
+      });
+  });
+</script>
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/card.js"></script>
+<!-- CUSTOM -->
+<script type="text/javascript" src="js/app/smartApp.js"></script>
+<script type="text/javascript" src="js/media_query.js"></script>
+<script type="text/javascript" src="client/components/app.header.js"></script>
+<script type="text/javascript" src="client/components/footer.directive.js"></script>
+<script type="text/javascript" src="client/components/modal.js"></script>
+
+<script type="text/javascript" src="js/smart-ballpen.js"></script>
+<script type="text/javascript" src="js/scrollSpy.js"></script>
+
+
+
+
+</body>
+</html>

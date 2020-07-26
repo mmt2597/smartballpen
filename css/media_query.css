@@ -1,0 +1,112 @@
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+	.navbar {
+		width: 100%;
+	}
+	
+	.smart-introduction h2 {
+		font-size: 12px;
+	}
+	.img-iphone img {
+		height: 150px !important; 
+		transform: rotateZ(40deg);
+	}
+	h1 {
+		font-size: 24px;
+	}
+
+	.pen-pics > .img-row > figure > img {
+		height: 100px;
+		margin: auto;
+	}
+
+	#whyUs img {
+		height: 150px !important;
+	}
+
+	.features-content p {
+		font-size: 14px;
+		text-align: left;
+	}
+	#describe img {
+		height: 150px !important;
+	}
+	.seperator-line {
+		margin: auto;
+	}
+	.describe p {
+		font-size: 14px;
+	}
+	blockquote > h1 {
+		font-size: 16px;
+	}
+	blockquote > em {
+		font-size: 14px;
+	}
+	.nav-link-footer > ul {
+		margin-left: 50px;
+	}
+	.footer-of-copyright {
+		display: flex;
+		flex-flow: row wrap;
+	}
+	.text-copyright {
+		align-items: flex-end;
+		-webkit-flex-grow: 1;
+				flex-grow: 1;
+		-webkit-order: 2;
+				order: 2;
+	}
+	.nav-footer {
+		align-items: flex-start;
+		-webkit-flex-grow: 1;
+				flex-grow: 1;
+		-webkit-order: 1;
+				order: 1;
+	}
+	#home img {
+		height: 200px;
+	}
+	#home button span {
+		font-size: 12px;
+		display: block;
+	}
+	.smart-introduction {
+		margin-top: 10px;
+	}
+	#myNavbar a {
+		font-size: 14px;
+	}
+	#social > li > a {
+		font-size: 10px;
+	}
+	#btn-submit button {
+		font-size: 14px !important;
+	}
+
+	.payment-methods {    
+		display: flex;
+	}
+	.payment-methods img {
+		flex-grow: 3;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+	.smart-introduction h2 {
+		font-size: 24px;
+	}
+
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+	.smart-introduction h2 {
+		font-size: 32px;
+	}
+
+ }

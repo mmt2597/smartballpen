@@ -1,0 +1,840 @@
+/* 
+  SkyApp Bootstrap Sass Theme 
+  Author: Marlon Tandoc
+  Version: 0.0.1
+*/
+/* BASE - Base styles, variables, mixins, etc */
+/* Font Colors */
+/* Background Colors */
+/* Showcase Area */
+/* Mixins  */
+/* line 1, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_normalize.scss */
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
+/* line 5, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_normalize.scss */
+.page-header {
+  margin-top: 30px;
+}
+
+/* line 9, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_normalize.scss */
+.no-pad-top {
+  padding-top: 0;
+}
+
+/* line 13, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_normalize.scss */
+.extra-pad {
+  padding: 40px 0;
+}
+
+/* line 17, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_normalize.scss */
+.top-inner {
+  padding: 90px 0 30px;
+}
+
+/* Image Sizes */
+/* line 23, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_normalize.scss */
+.img-xsm {
+  width: 100px;
+}
+
+/* line 24, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_normalize.scss */
+.img-sm {
+  width: 200px;
+}
+
+/* line 25, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_normalize.scss */
+.img-lg {
+  width: 400px;
+}
+
+/* line 26, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_normalize.scss */
+img-xlg {
+  width: 700px;
+}
+
+/* Font Colors */
+/* Background Colors */
+/* Showcase Area */
+/* line 1, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_base.scss */
+body {
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #666666;
+}
+
+/* line 7, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_base.scss */
+a {
+  color: #00aff0;
+}
+
+/* line 11, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_base.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 15, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_base.scss */
+input, textarea, button {
+  -o-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* line 19, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_base.scss */
+img.device {
+  width: 100%;
+}
+
+/* line 23, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/base/_base.scss */
+img.device-small {
+  width: 70%;
+  margin-bottom: -40px;
+}
+
+/* MODULES - Individual site components */
+/* BLOCKS */
+/* line 3, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block, .block-primary, .block-secondary, .block-light, .block-dark {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 7, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 12, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block iframe, .block-primary iframe, .block-secondary iframe, .block-light iframe, .block-dark iframe {
+  width: 100%;
+}
+
+/* line 17, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block-primary {
+  background: #00aff0;
+  color: #fff;
+}
+
+/* line 21, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block-secondary {
+  background: #7fba00;
+  color: #fff;
+}
+
+/* line 25, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block-light {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 29, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block-dark {
+  background: #333333;
+  color: #fff;
+}
+
+/* line 34, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block-center {
+  text-align: center !important;
+}
+
+/* line 38, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block-image img {
+  width: 100%;
+}
+
+/* line 42, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block-border {
+  border: 1px solid #cccccc;
+}
+
+/* line 47, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block-primary-head h3 {
+  padding: 15px 5px 15px 10px;
+  background: #00aff0;
+  color: #fff;
+  margin: 0;
+  font-size: 18px;
+}
+
+/* line 54, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block-primary-head .block-content {
+  border: 1px solid #00aff0;
+  padding: 10px;
+}
+
+/* line 64, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block-icon h3 {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 69, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block-icon .icon {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+}
+
+/* line 75, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_blocks.scss */
+.block-icon .icon-content {
+  float: left;
+  width: 70%;
+}
+
+/* BUTTONS */
+/* line 3, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_buttons.scss */
+.btn-primary {
+  background: #00aff0;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+/* line 8, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_buttons.scss */
+.btn-primary:hover {
+  background: #008abd;
+  border: 2px solid #fff;
+}
+
+/* Carousel */
+/* line 3, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_components.scss */
+.carousel {
+  margin-bottom: 20px;
+}
+
+/* line 6, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_components.scss */
+.carousel img {
+  padding: 3px;
+  border: 1px solid #cccccc;
+}
+
+/*  Tabs */
+/* line 14, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_components.scss */
+.tab-pane {
+  padding: 20px 10px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+/* line 20, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_components.scss */
+.tab-primary .tab-pane, .tab-primary .nav-tabs > li.active > a, .tab-primary .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background: #00aff0;
+  color: #fff;
+}
+
+/* line 25, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_components.scss */
+.tab-secondary .tab-pane, .tab-secondary .nav-tabs > li.active > a, .tab-secondary .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background: #7fba00;
+  color: #fff;
+}
+
+/* line 30, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_components.scss */
+.tab-light .tab-pane, .tab-light .nav-tabs > li.active > a, .tab-light .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 34, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_components.scss */
+.tab-dark .tab-pane, .tab-dark .nav-tabs > li.active > a, .tab-dark .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background: #333333;
+  color: #fff;
+}
+
+/* Sections */
+/* line 3, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_section.scss */
+section {
+  padding: 30px 0;
+}
+
+/* line 7, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_section.scss */
+.section-showcase {
+  height: 400px;
+  background: url("../img/showcase.jpg") no-repeat top center;
+}
+
+/* line 10, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_section.scss */
+.section-showcase .showcase-content {
+  padding: 110px 15px;
+  text-align: center;
+}
+
+/* line 15, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_section.scss */
+.section-showcase h1 {
+  color: #00aff0;
+}
+
+/* line 21, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_section.scss */
+.section-primary, .section-primary-a, .section-primary-b {
+  background: #00aff0;
+  color: #fff;
+}
+
+/* line 25, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_section.scss */
+.section-primary-a {
+  border-top: 4px solid #7fba00;
+}
+
+/* line 30, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_section.scss */
+.section-primary-b {
+  border-bottom: 4px solid #7fba00;
+}
+
+/* line 35, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_section.scss */
+.section-seconday {
+  background: #7fba00;
+  color: #fff;
+}
+
+/* line 39, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_section.scss */
+.section-light {
+  background: #e4eef2;
+  color: #666666;
+}
+
+/* line 43, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_section.scss */
+.section-dark {
+  background: #333333;
+  color: #fff;
+}
+
+/* LISTS */
+/* line 3, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.list, .list-feature {
+  margin-bottom: 30px;
+}
+
+/* line 7, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.list-feature {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+/* line 13, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.list-feature li {
+  line-height: 3.6em;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 18, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.list-feature li:last-child {
+  border: 0;
+}
+
+/* line 22, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.list-feature span {
+  vertical-align: top;
+  padding-top: 9px;
+  font-size: 120%;
+}
+
+/* line 28, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.list-feature i {
+  margin-top: -9px;
+  margin-right: 5px;
+}
+
+/* line 36, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.list-comments {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 40, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.list-comments li {
+  padding: 10px 0 5px 0;
+  border-bottom: 1px solid #cccccc;
+  overflow: auto !important;
+}
+
+/* line 44, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.list-comments li:last-child {
+  border: 0;
+}
+
+/* line 47, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.list-comments img {
+  width: 100px;
+}
+
+/* ICONS */
+/* line 55, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.fa-2 {
+  font-size: 18px;
+}
+
+/* line 58, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.fa-3 {
+  font-size: 24px;
+}
+
+/* line 61, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.fa-4 {
+  font-size: 27px;
+}
+
+/* line 64, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.fa-5 {
+  font-size: 35px;
+}
+
+/* line 67, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.fa-6 {
+  font-size: 40px;
+}
+
+/* line 71, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.fa-primary {
+  color: #00aff0;
+}
+
+/* line 75, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.fa-border {
+  border: 1px solid #00aff0;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 13px 15px;
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+/* HEADINGS */
+/* line 85, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.heading-primary, .heading-primary-a, .heading-secondary-a, .heading-light-a, .heading-dark-a {
+  color: #00aff0;
+}
+
+/* line 88, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.heading-secondary {
+  color: #7fba00;
+}
+
+/* line 91, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.heading-light {
+  color: #e4eef2;
+}
+
+/* line 94, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.heading-dark {
+  color: #333333;
+}
+
+/* line 98, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.heading-primary-a {
+  border-bottom: 2px solid #00aff0;
+}
+
+/* line 103, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.heading-secondary-a {
+  border-bottom: 2px solid #7fba00;
+}
+
+/* line 108, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.heading-light-a {
+  border-bottom: 2px solid #e4eef2;
+}
+
+/* line 113, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.heading-dark-a {
+  border-bottom: 2px solid #333333;
+}
+
+/* EMPHASIS TEXT */
+/* line 120, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.em-primary {
+  color: #00aff0;
+}
+
+/* line 124, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.em-secondary {
+  color: #7fba00;
+}
+
+/* line 128, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.em-light {
+  color: #e4eef2;
+}
+
+/* line 132, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_typography.scss */
+.em-dark {
+  color: #333333;
+}
+
+/* Searchbox */
+/* line 3, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_forms.scss */
+.search {
+  width: 100%;
+}
+
+/* line 6, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_forms.scss */
+.search h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 11, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_forms.scss */
+.search input[type="search"] {
+  border: 0;
+  height: 50px;
+  width: 80%;
+  border: 2px solid #00aff0;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 21, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/modules/_forms.scss */
+.search button {
+  border: 0;
+  background: none;
+  padding: 0;
+  vertical-align: top;
+  margin-left: -4px;
+}
+
+/* LAYOUTS - Page layout sites */
+/* Footer */
+/* line 3, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_footer.scss */
+.footer-main {
+  background: #333333;
+  color: #fff;
+  border-top: 5px solid #7fba00;
+  min-height: 200px;
+  padding: 30px 0;
+  z-index: 10;
+}
+
+/* line 10, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_footer.scss */
+.footer-main a {
+  color: #fff;
+}
+
+/* line 14, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_footer.scss */
+.footer-main ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 19, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_footer.scss */
+.footer-main li {
+  line-height: 1.8em;
+  list-style: none;
+}
+
+/* Navbar  */
+/* line 3, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_nav.scss */
+.navbar {
+  width: 90%;
+  margin: auto;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  border-color: #e7e7e7;
+  min-height: 60px;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+/* line 12, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_nav.scss */
+.navbar a {
+  color: darkblue !important;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  padding-bottom: 24px !important;
+  padding-top: 20px !important;
+}
+
+/* line 21, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background: #00aff0;
+  color: #fff !important;
+}
+
+/* line 3, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_blog.scss */
+.blog-post {
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  padding: 15px;
+}
+
+/* line 8, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_blog.scss */
+.blog-post h2.page-header {
+  margin-top: 5px !important;
+}
+
+/* line 13, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_blog.scss */
+.blog-featured {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 18, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_blog.scss */
+.post-meta {
+  background: #f3f3f3;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+
+/*==========  Mobile First Method  ==========*/
+@media only screen and (min-width: 295px) {
+  /* line 5, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_mobile.scss */
+  .section-showcase {
+    margin: 0;
+    padding: 0;
+  }
+  /* line 9, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_mobile.scss */
+  .showcase-content {
+    margin: -25px 0 0;
+    padding: 0;
+  }
+}
+
+/* Small Devices, Tablets */
+@media (max-width: 768px) {
+  /* line 18, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_mobile.scss */
+  .search {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 23, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_mobile.scss */
+  .device {
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+  /* line 28, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_mobile.scss */
+  .device-small {
+    margin-bottom: 20px !important;
+  }
+  /* line 34, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_mobile.scss */
+  .footer-main h4, .footer-main ul {
+    text-align: center;
+  }
+  /* line 38, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_mobile.scss */
+  .footer-main ul {
+    margin-bottom: 20px;
+  }
+  /* line 43, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_mobile.scss */
+  .navbar .container {
+    width: auto;
+  }
+  /* line 46, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_mobile.scss */
+  .navbar .container li a {
+    font-size: 1em;
+  }
+  /* line 51, C:/xampp/htdocs/MyWebProjects/SkyApp/scss/layouts/_mobile.scss */
+  .block, .block-primary, .block-secondary, .block-light, .block-dark {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=../css/main.map */
+
+
+.card-panel {
+  transition: box-shadow .25s;
+  padding: 24px;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.card {
+  position: relative;
+  margin: 0.5rem 0 1rem 0;
+  background-color: #fff;
+  transition: box-shadow .25s;
+  border-radius: 2px;
+}
+
+.card .card-title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.card .card-title.activator {
+  cursor: pointer;
+}
+
+.card.small, .card.medium, .card.large {
+  position: relative;
+}
+
+.card.small .card-image, .card.medium .card-image, .card.large .card-image {
+  max-height: 60%;
+  overflow: hidden;
+}
+
+.card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {
+  max-height: 40%;
+}
+
+.card.small .card-content, .card.medium .card-content, .card.large .card-content {
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.card.small .card-action, .card.medium .card-action, .card.large .card-action {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.card.small {
+  height: 300px;
+}
+
+.card.medium {
+  height: 400px;
+}
+
+.card.large {
+  height: 500px;
+}
+
+.card.horizontal {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
+  height: 100%;
+  max-height: none;
+  overflow: visible;
+}
+
+.card.horizontal.small .card-image img, .card.horizontal.medium .card-image img, .card.horizontal.large .card-image img {
+  height: 100%;
+}
+
+.card.horizontal .card-image {
+  max-width: 50%;
+}
+
+.card.horizontal .card-image img {
+  border-radius: 2px 0 0 2px;
+  max-width: 100%;
+  width: auto;
+}
+
+.card.horizontal .card-stacked {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+.card.horizontal .card-stacked .card-content {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.card.sticky-action .card-action {
+  z-index: 2;
+}
+
+.card.sticky-action .card-reveal {
+  z-index: 1;
+  padding-bottom: 64px;
+}
+
+.card .card-image {
+  position: relative;
+}
+
+.card .card-image img {
+  display: block;
+  border-radius: 2px 2px 0 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.card .card-image .card-title {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 24px;
+}
+
+.card .card-content {
+  padding: 24px;
+  border-radius: 0 0 2px 2px;
+}
+
+.card .card-content p {
+  margin: 0;
+  color: inherit;
+}
+
+.card .card-content .card-title {
+  display: block;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+.card .card-content .card-title i {
+  line-height: 32px;
+}
+
+.card .card-action {
+  position: relative;
+  background-color: inherit;
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  padding: 16px 24px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: #ffab40;
+  margin-right: 24px;
+  transition: color .3s ease;
+  text-transform: uppercase;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+  color: #ffd8a6;
+}
+
+.card .card-reveal {
+  padding: 24px;
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  overflow-y: auto;
+  left: 0;
+  top: 100%;
+  height: 100%;
+  z-index: 3;
+  display: none;
+}
+
+.card-reveal strong {
+  font-size: 14px !important;
+}
+
+.card .card-reveal .card-title {
+  cursor: pointer;
+  display: block;

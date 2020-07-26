@@ -1,0 +1,34 @@
+    var Grid = Backbone.View.extend({
+        el: 'body',
+        options: {
+            view: app.SubmissionsView,
+            section: 'submission',
+            items_per_page: 24,
+            selected_type: null,
+            show_view_options: true
+        },
+        events: {},
+        initialize: function(options) {
+            this.options = $.extend({}, this.options, options);
+
+            var items = new this.options.view({
+                models: models,
+                is_grid: true,
+                routeScroll: window.location.href,
+                items_per_page: this.options.items_per_page,
+                el: $('.list-items.list-flex'),
+                selected_type: this.options.selected_type
+            });
+
+            app.FiltersView = new FiltersView({
+                navigation: navigation,
+                navigation_section: this.options.section,
+                model: new Filters(),
+                current_view: items,
+                container: $('.wrapper'),
+                total: navigation.total,
+                models: models,
+                show_view_options: this.options.show_view_options
+            });
+        },
+    });

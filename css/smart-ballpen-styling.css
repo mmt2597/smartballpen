@@ -1,0 +1,47 @@
+#home button {
+	background: none;
+	border-radius: 0;
+	border: 1px solid #fff;
+}
+#home button span {
+	color: #fff;
+}
+.smart-ballpen-w-anim {
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
+
+.smart-ballpen-w-anim .top { height: 200px; position: absolute; }
+.smart-ballpen-w-anim .bottom { height: 250px; position: absolute; }
+
+.smart-ballpen-w-anim .top {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -50px;
+	z-index: 1;
+	opacity: 0;
+}
+
+.smart-ballpen-w-anim .bottom {
+	left: 0;
+	right: 0;
+	top: 50%;
+	bottom: 0;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -65px;
+	z-index: 2;
+}
+.figure-features {
+	opacity: 0;
+}
+.services, #whyUs {
+	overflow: hidden;
+}
+.features-content p {
+	opacity: 0;
+}

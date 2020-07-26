@@ -1,0 +1,31 @@
+ <div class="modal fade" role="dialog" id="{{item.href}}" ng-repeat="item in modalItem">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #00AFF0">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title" style="color: #fff">{{item.href}}</h3>
+        </div>
+        <div class="modal-body">
+
+  				<div class="col-md-4" >
+  					<a href=""><img src="{{item.imagePath}}" class="img-responsive img-rounded" style="border: 1px solid #bbb; box-shadow: 1px 1px 6px 1px #ddd"></a>	
+  				</div>
+  				<div class="col-md-8">
+  					<h4>{{item.href}}</h4>
+  					<p><span class="badge">{{item.price}}</span> | <i class="fa fa-shopping-cart"></i>  
+              <a href="#" style="text-decoration: none; "><strong>Add to cart</strong></a> 
+            </p>
+            <p><a href="">How to buy?</a></p> 
+  
+  					<h6><strong>Description</strong></h6>
+  					<p><small>- {{item.desc}}</small></p>
+  	    	</div>  	
+        </div> <!-- CLOSING TAG OF MODAL BODY -->
+
+        <div class="clearfix"></div> 
+        <div class="modal-footer fade">
+
+        </div> <!-- CLOSING TAG OF MODAL FOOTER -->
+      </div> <!-- CLOSING TAG OF MODAL CONTENT -->
+    </div> <!-- CLOSING TAG OF MODAL DIALOG -->
+  </div> <!-- CLOSING TAG OF MODAL MODAL -->
