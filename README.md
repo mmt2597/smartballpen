@@ -1,7 +1,7 @@
 # smartballpen
    It's a **School Project** that need to be market our invented fictitious product.
    
-# Charecteritics
+# Characteristics
   * (SPA) Single Page Application
   * Plain Design
   * Minimalistic
